@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
 
-  s.add_development_dependency 'test-unit'
-  s.add_development_dependency 'guard'
-  s.add_development_dependency 'guard-shell'
-  s.add_development_dependency 'pry'
+  s.add_development_dependency 'test-unit', '>= 2.5.4'
+  s.add_development_dependency 'guard', '>= 1.8'
+  s.add_development_dependency 'guard-shell', '>= 0.5.1'
+  s.add_development_dependency 'pry', '>= 0.9.12'
 
   s.add_runtime_dependency "rb-blink1", "~> 0.0.6"
   s.add_runtime_dependency "colormath", "~> 0.1.2"

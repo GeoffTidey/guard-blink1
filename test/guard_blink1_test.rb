@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'guard-blink1'
+require 'guard_blink1'
 
 class GuardBlink1Test < Test::Unit::TestCase
   def test_get_colour
@@ -7,7 +7,7 @@ class GuardBlink1Test < Test::Unit::TestCase
     assert_equal "#FF0000", GuardBlink1.get_colour("failed")
     assert_equal "#EE5500", GuardBlink1.get_colour("pending")
     assert_equal "#000000", GuardBlink1.get_colour("off")
-    assert_equal "#FF1111", GuardBlink1.get_colour("default")
+    assert_equal "#FF4444", GuardBlink1.get_colour("default")
   end
 
   def test_set_colour

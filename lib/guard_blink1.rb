@@ -8,7 +8,7 @@ class GuardBlink1
     'failed'  => '#FF0000',
     'pending' => '#EE5500',
     'off'     => '#000000',
-    'default' => '#FF1111',
+    'default' => '#FF4444',
   }
 
   class << self
