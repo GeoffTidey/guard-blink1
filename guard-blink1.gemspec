@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'guard-blink1'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2013-05-10'
-  s.summary     = "guard output to blink1"
-  s.description = "expects first line from guard result file, and outputs relevant colour to blink1"
+  s.description = "guard output to blink1"
+  s.summary     = "expects first line from guard result file, user guard file notification & guard-shell to outputs relevant colour to blink1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Geoff Tidey"]
   s.email       = 'guard-blink1@tidey.net'

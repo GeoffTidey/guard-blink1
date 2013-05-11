@@ -24,6 +24,15 @@ and also add
 
 ```gem 'guard-blink1'``` after this
 
+you'll probably want to put them in your test group
+
+```
+group :test do
+  gem 'guard'
+  gem 'guard-shell'
+  gem 'guard-blink1'
+end
+```
 
 ### Now add this to the end of your Guardfile
 
