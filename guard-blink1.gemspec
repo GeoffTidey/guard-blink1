@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'guard-blink1'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2013-05-10'
   s.description = "guard output to blink1"
   s.summary     = "expects first line from guard result file, user guard file notification & guard-shell to outputs relevant colour to blink1"
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Geoff Tidey"]
   s.email       = 'guard-blink1@tidey.net'
   s.files       = `git ls-files`.split($\)
-  s.homepage    = ''
+  s.homepage    = 'https://github.com/GeoffTidey/guard-blink1'
   s.require_paths = ["lib"]
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
 
