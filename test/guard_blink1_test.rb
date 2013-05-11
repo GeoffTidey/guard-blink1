@@ -5,7 +5,7 @@ class GuardBlink1Test < Test::Unit::TestCase
   def test_get_colour
     assert_equal "#0F0", GuardBlink1.get_colour("success")
     assert_equal "#F00", GuardBlink1.get_colour("failed")
-    assert_equal "#FF0", GuardBlink1.get_colour("pending")
+    assert_equal "#FFC300", GuardBlink1.get_colour("pending")
     assert_equal "#000", GuardBlink1.get_colour("off")
     assert_equal "#777", GuardBlink1.get_colour("default")
   end

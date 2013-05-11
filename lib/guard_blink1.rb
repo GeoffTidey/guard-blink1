@@ -6,7 +6,7 @@ class GuardBlink1
   COLOURS = {
     'success' => '#0F0',
     'failed'  => '#F00',
-    'pending' => '#FF0',
+    'pending' => '#FFC300',
     'off'     => '#000',
     'default' => '#777',
   }
@@ -14,7 +14,6 @@ class GuardBlink1
   class << self
     def blink_colour(status)
       colour = get_colour(status)
-      puts "BLINK: #{colour}"
       set_colour(colour)
     end
 
