@@ -4,11 +4,11 @@ require 'colormath'
 class GuardBlink1
 
   COLOURS = {
-    'success' => '#00FF00',
-    'failed'  => '#FF0000',
-    'pending' => '#EE5500',
-    'off'     => '#000000',
-    'default' => '#FF4444',
+    'success' => '#0F0',
+    'failed'  => '#F00',
+    'pending' => '#FF0',
+    'off'     => '#000',
+    'default' => '#777',
   }
 
   class << self
