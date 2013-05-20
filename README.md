@@ -58,6 +58,8 @@ As we're using an intermediary file called .guard_result you'll probably want to
 
 Now get back to coding with your blink1 as your Red/Green testing buddy :)
 
+Here's an example Vine I made earlier [https://vine.co/v/bEjJD3UerFt](https://vine.co/v/bEjJD3UerFt) for all you people from the future! :)
+
 
 ## Credit
 
