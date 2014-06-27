@@ -26,15 +26,17 @@ and also add
 
 ```gem 'guard-blink1'``` after this
 
-you'll probably want to put them in your test group
+you'll probably want to put them in your development group
 
 ```
-group :test do
+group :development do
   gem 'guard'
   gem 'guard-shell'
   gem 'guard-blink1'
 end
 ```
+
+NB.\  putting them in the test group will cause issues on machines without libusb installed.  e.g/ Continuous Integration Servers
 
 ### Now add this to the end of your Guardfile
 
